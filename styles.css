@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.root-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gradImage {
+    transform: scale(0.25);
+}
