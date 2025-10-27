@@ -40,7 +40,11 @@ img {
 .main-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+/* Section Header */
+.section-header {
+    margin-left: 30px;
 }
 
 /* About Me */
@@ -73,6 +77,28 @@ img {
     justify-content: center;
     flex-basis: 500px;
     gap: 16px;
+}
+
+/* EduExp */
+.eduExp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-left: 64px;
+    margin-right: 64px;
+    justify-content: center;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    flex-basis: 1250px;
+}
+
+.event-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
 }
 
 /* Contact */
