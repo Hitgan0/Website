@@ -8,6 +8,77 @@
     flex-direction: column;
 }
 
+/* Images */
+img {
+    height: auto;
+    width: 200px;
+}
+
 .gradImage {
-    transform: scale(0.25);
+    display: flex;
+    flex-shrink: 0;
+    height: auto;
+    width: 400px;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* About Me */
+.about-me {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.about-me-blurb {
+    display: flex;
+    align-items: center;
+    max-width: 750px;
+    
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 500px;
+    gap: 16px;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 750px;
 }
