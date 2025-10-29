@@ -6,6 +6,7 @@
 .root-container {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", monospace;
 }
 
 /* Images */
@@ -19,13 +20,19 @@ img {
     flex-shrink: 0;
     height: auto;
     width: 400px;
+    border-style: solid;
+    border-color: #FAF2E6;
+    border-radius: 32px;
+    border-width: 6px;
 }
 
 /* Navbar */
 .navbar {
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content: flex-end;
+    padding: 24px;
+    background-color: #a73535;
+    color: #FAF2E6;
 }
 
 .links {
@@ -35,6 +42,7 @@ img {
     margin: 0;
     padding: 0;
     align-items: center;
+    font-weight: 550;
 }
 
 /* Main Content */
@@ -43,32 +51,57 @@ img {
     flex-direction: column;
 }
 
-/* Section Header */
-.section-header {
-    margin-left: 30px;
-}
-
 /* About Me */
 .about-me {
     display: flex;
     justify-content: center;
     gap: 32px;
     flex-wrap: wrap;
+    background-color: #a73535;
+    color: #FAF2E6;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .about-me-blurb {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
     max-width: 750px;
-    
+    flex-direction: column;
+}
+
+.about-me-title {
+    font-size: 54px;
+    padding-bottom: 32px;
+}
+
+.about-me-text {
+    font-weight: 500;
+
 }
 
 /* Skills */
+.skills-header {
+    display: flex;
+    background-color: #a73535;
+}
+
+.skills-header-text {
+    background-color: #FAF2E6;
+    color: #222222;
+    font-size: 36px;
+    padding: 16px 16px 8px 16px;
+    margin-left: 128px;
+    border-radius: 12px 12px 0 0;
+}
+
 .skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 16px;
+    background-color: #FAF2E6;
 }
 
 .skill {
