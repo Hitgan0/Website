@@ -73,6 +73,7 @@ img {
 
 .about-me-title {
     font-size: 54px;
+    font-weight: 800;
     padding-bottom: 32px;
 }
 
@@ -262,18 +263,47 @@ img {
 }
 
 /* Contact */
+.contact-header {
+    display: flex;
+    background-color: #FAF2E6;
+}
+
+.contact-header-text {
+    background-color: #a73535;
+    color: #222222;
+    font-size: 36px;
+    padding: 16px 16px 8px 16px;
+    margin-left: 128px;
+    border-radius: 12px 12px 0 0;
+    color: #FAF2E6;
+}
+
 .contact {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 750px;
-    align-self: center;
+    justify-content: center;
+    background-color: #a73535;
+    padding: 128px;
+    color: #FAF2E6;
+    gap: 48px;
 }
 
 .contact-text {
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    font-size: 54px;
+    font-weight: 800;
 }
 
 .contact-links {
     list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    gap: 8px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 }
